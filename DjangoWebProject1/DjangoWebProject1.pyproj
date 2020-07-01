@@ -35,12 +35,36 @@
     <Compile Include="DjangoWebProject1\settings.py" />
     <Compile Include="DjangoWebProject1\urls.py" />
     <Compile Include="DjangoWebProject1\wsgi.py" />
+    <Compile Include="MyApp1\admin.py" />
+    <Compile Include="MyApp1\apps.py" />
+    <Compile Include="MyApp1\migrations\__init__.py" />
+    <Compile Include="MyApp1\models.py" />
+    <Compile Include="MyApp1\tests.py" />
+    <Compile Include="MyApp1\views.py" />
+    <Compile Include="MyApp1\__init__.py" />
+    <Compile Include="myAPP2\admin.py" />
+    <Compile Include="myAPP2\apps.py" />
+    <Compile Include="myAPP2\migrations\__init__.py" />
+    <Compile Include="myAPP2\models.py" />
+    <Compile Include="myAPP2\tests.py" />
+    <Compile Include="myAPP2\views.py" />
+    <Compile Include="myAPP2\__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MyApp1\templates\MyApp1\index.html" />
+    <Content Include="myAPP2\templates\myAPP2\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DjangoWebProject1\" />
+    <Folder Include="MyApp1\" />
+    <Folder Include="MyApp1\migrations\" />
+    <Folder Include="MyApp1\templates\" />
+    <Folder Include="MyApp1\templates\MyApp1\" />
+    <Folder Include="myAPP2\" />
+    <Folder Include="myAPP2\migrations\" />
+    <Folder Include="myAPP2\templates\" />
+    <Folder Include="myAPP2\templates\myAPP2\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
