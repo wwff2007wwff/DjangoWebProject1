@@ -30,4 +30,5 @@ urlpatterns = [
     url(r'^home$', MyApp1.views.index, name='home2'),
     url(r'^home3/hom$', myAPP2.views.index, name='index3'),
     url(r'^home2$', myAPP2.views.index, name='home4'),
+    url(r'^about$', MyApp1.views.howabout, name='wfabout'),
 ]

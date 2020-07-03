@@ -1,0 +1,29 @@
+﻿        {% extends "MyApp1/layout.html" %}
+{#<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>#}
+<html>
+    <head>
+        <title>{{ wftitle }}</title>
+        {% load staticfiles %}
+        <link rel="stylesheet" type="text/css" href="{% static 'site.css' %}" />
+    </head>
+    <body>
+        {#<div><a href="home5学/好nhowayou">Home</a></div>#}
+        <div><a href="{% url 'index3' %}">Home5</a></div>
+        {#{{ content }}#}
+
+        {% block content %}
+        {{ content }}
+        {% endblock %}
+        <div>一个<br\>好人</div>
+    </body>
+</html>

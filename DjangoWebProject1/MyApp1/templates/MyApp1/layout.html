@@ -1,0 +1,42 @@
+﻿{#<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>#}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>{{ wftitle }}</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'site.css' %}" />
+</head>
+
+<body>
+    <div class="navbar">
+       <a href="/" class="navbar-brand">Hello Django</a>
+       <a href="{% url 'home2' %}" class="navbar-item">Home</a>
+       <a href="{% url 'wfabout' %}" class="navbar-item">About</a>
+    </div>
+
+    <div class="body-content">
+
+        <hr/>
+        <footer>
+            <p>&copy; 2018</p>
+        </footer>
+        {% block content %}{% endblock %}
+        <div>穿寒西岭&copy;千秋雪/n</div>
+        {% block contentgou %}{% endblock %}
+        <div>门泊东吴万里船</div>
+        {% block contentmao %}{% endblock %}
+        <div>我爱宇宙</div>
+    </div>
+</body>
+</html>

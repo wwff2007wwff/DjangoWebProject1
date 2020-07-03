@@ -1,9 +1,45 @@
+{% extends "MyApp1/layout.html" %}
+    {% block content %}
+
+<span class="message">{{ wfmessage }}</span>{{ wfcontentwf }}
+{% endblock %}
+{% block contentgou %}
+<div>你是谁，我是狗</div>
+{% endblock %}
+{% block contentmao %}
+<div>你是谁，我是猫</div>
+{% endblock %}
+
+{#<html>
+<head><title>{{wftitle}}</title></head>
+
+<body>
+<span>作者，影评人，MyApp1心理咨询师</span>
+<strong>{{wfmessage}}</strong>{{wfcontentwf}}
+<span>好啊，少年，MyApp1又是十年</span>
+</body>
+</html>#}
+    
+
 <html>
-<head><title></title></head>
+
+
+<head>
+    {% load staticfiles %}  <!-- Instruct Django to load static files -->
+    <link rel="stylesheet" type="text/css" href="{% static 'site.css' %}" />
+    <title class="message">{{wftitle}}</title>
+
+    </head>
+
 
 <body>
 
-{{ content }}
+{#<strong class="message">{{wfmessage}} '\n'</strong>{{wfcontentwf}}#}
 
+    <span>作者，影评人，MyApp1心理咨询师</span>
+<span class="message">好啊，少年，MyApp1又是十年</span>{{ wfcontentwf }}
 </body>
+<div><a href="about">About</a></div>
+
 </html>
+
