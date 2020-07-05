@@ -9,6 +9,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DjangoWebProject2", "Django
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DjangoWebProject3", "DjangoWebProject3\DjangoWebProject3.pyproj", "{28418D58-35A5-49A0-90AF-DF8027A71B1B}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DjangoWebProject4", "DjangoWebProject4\DjangoWebProject4.pyproj", "{0EA95272-1C9B-4B3E-9608-7FC34CEA1773}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DjangoWebProject5", "DjangoWebProject5\DjangoWebProject5.pyproj", "{27AD9A40-609E-4F4A-968E-32BFD428008E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{28418D58-35A5-49A0-90AF-DF8027A71B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28418D58-35A5-49A0-90AF-DF8027A71B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28418D58-35A5-49A0-90AF-DF8027A71B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EA95272-1C9B-4B3E-9608-7FC34CEA1773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EA95272-1C9B-4B3E-9608-7FC34CEA1773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EA95272-1C9B-4B3E-9608-7FC34CEA1773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EA95272-1C9B-4B3E-9608-7FC34CEA1773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27AD9A40-609E-4F4A-968E-32BFD428008E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27AD9A40-609E-4F4A-968E-32BFD428008E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27AD9A40-609E-4F4A-968E-32BFD428008E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27AD9A40-609E-4F4A-968E-32BFD428008E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
